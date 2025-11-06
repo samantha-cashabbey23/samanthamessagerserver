@@ -11,7 +11,7 @@ jobs:
     environment: prod
 
     steps:
-      - name: Check out
+      - name: Check out now
         uses: actions/checkout@v4
 
       - name: Copy app to EC2
